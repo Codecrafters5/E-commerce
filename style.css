@@ -1,0 +1,56 @@
+*{
+  font-family: 'Cairo', sans-serif;
+  transition: 1s;
+  font-weight: 600;
+}
+@media(max-width:1440px){
+  h1{
+   font-size: 50px;
+  }
+}
+@media(max-width:900px){
+  h1{
+    font-size: 35px;
+  }
+}
+span{
+  
+}
+.border{
+  width: 300px;
+  height: 350px;
+  border: 1px #999 solid;
+  box-shadow: 3px 1px 4px #999;
+  margin-top: 100px;
+  border-radius: 3px;
+}
+input{
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-bottom: 2px #111 solid;
+  font-weight: 600;
+}
+button{
+  font-family: sans-serif;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px #111 solid;
+  background: none;
+  color: #111;
+  width: 80px;
+  margin-top: 15px;
+}
+::placeholder{
+  color: #111;
+}
+button:hover{
+  color: #fff;
+  background: #111;
+}
+select{
+  height: 30px;
+  width: 200px;
+  border: 1.10px black solid;
+  background: none;
+}
